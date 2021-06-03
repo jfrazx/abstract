@@ -1,0 +1,12 @@
+{
+  "version": "0.1",
+  "language": "en",
+  "words": ["lcov", "klass", "esnext", "codecov", "prettierrc"],
+  "ignoreRegExpList": [
+    "/\"(pre|post)[a-zA-Z]+\":/",
+    "from '(@|\\./)?[/a-zA-Z0-9]+'",
+    "/\"name\": \"[a-zA-Z]+\"/",
+    "/\"@?[a-zA-Z0-9]+(/[a-zA-Z0-9]+)?\": \"\\^?[\\d+\\.]+\"/",
+    "/YY[YMD hms]+/"
+  ]
+}
