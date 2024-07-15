@@ -1,12 +1,24 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "language": "en",
-  "words": ["lcov", "klass", "esnext", "codecov", "prettierrc"],
+  "words": [
+    "codecov",
+    "codeql",
+    "esnext",
+    "klass",
+    "lcov",
+    "microbundle",
+    "precoverage",
+    "prettierrc"
+  ],
   "ignoreRegExpList": [
     "/\"(pre|post)[a-zA-Z]+\":/",
     "from '(@|\\./)?[/a-zA-Z0-9]+'",
     "/\"name\": \"[a-zA-Z]+\"/",
     "/\"@?[a-zA-Z0-9]+(/[a-zA-Z0-9]+)?\": \"\\^?[\\d+\\.]+\"/",
     "/YY[YMD hms]+/"
+  ],
+  "ignoreWords": [
+    "jfrazx"
   ]
 }

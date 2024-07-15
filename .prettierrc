@@ -8,5 +8,5 @@
   "printWidth": 95,
   "singleQuote": true,
   "bracketSpacing": true,
-  "trailingComma": "all"
+  "trailingComma": "none"
 }

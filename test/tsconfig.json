@@ -1,7 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "target": "ESNEXT"
+    "target": "ESNext"
   },
   "include": ["*.spec.ts"]
 }
