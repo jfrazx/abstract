@@ -2,12 +2,11 @@ name: Check for spelling errors
 
 on:
   push:
-    branches:
-      - master
+    branches: [master, develop]
 
   pull_request:
-    branches:
-      - master
+    branches: [master, develop]
+
     types:
       - opened
       - reopened
