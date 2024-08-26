@@ -1,15 +1,26 @@
 {
   "version": "0.2",
   "language": "en",
+  "ignorePaths": [
+    "coverage",
+    "dist",
+    "node_modules",
+    ".git",
+    "build",
+    ".parcel-cache",
+    ".nyc_output"
+  ],
   "words": [
     "codecov",
     "codeql",
+    "Dont",
     "esnext",
     "klass",
     "lcov",
     "microbundle",
     "precoverage",
-    "prettierrc"
+    "prettierrc",
+    "SNYK"
   ],
   "ignoreRegExpList": [
     "/\"(pre|post)[a-zA-Z]+\":/",
@@ -18,7 +29,5 @@
     "/\"@?[a-zA-Z0-9]+(/[a-zA-Z0-9]+)?\": \"\\^?[\\d+\\.]+\"/",
     "/YY[YMD hms]+/"
   ],
-  "ignoreWords": [
-    "jfrazx"
-  ]
+  "ignoreWords": ["jfrazx"]
 }
