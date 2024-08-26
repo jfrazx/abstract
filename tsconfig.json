@@ -3,7 +3,7 @@
     "strict": true,
     "baseUrl": "./",
     "target": "es6",
-    "outDir": "build",
+    "outDir": "dist",
     "sourceMap": true,
     "declaration": true,
     "module": "NodeNext",
