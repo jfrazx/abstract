@@ -12,7 +12,7 @@ yarn:
 
 ## Usage
 
-```javascript
+```typescript
 import { Abstract } from '@status/abstract';
 
 @Abstract

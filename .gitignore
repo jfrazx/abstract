@@ -12,6 +12,7 @@ dist/
 build/
 
 build-examples/
+.parcel-cache/
 node_modules/
 .nyc_output/
 coverage/

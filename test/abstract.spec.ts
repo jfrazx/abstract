@@ -26,7 +26,7 @@ describe('Abstract', () => {
 
   it('should not allow abstract classes to be instantiated', () => {
     expect(() => new Who()).to.throw(
-      `'Who' is an Abstract class and cannot be instantiated directly`,
+      `'Who' is an Abstract class and cannot be instantiated directly`
     );
   });
 
@@ -49,7 +49,7 @@ describe('Abstract', () => {
 
   it('should not allow extended abstract classes to be instantiated', () => {
     expect(() => new Why()).to.throw(
-      `'Why' is an Abstract class and cannot be instantiated directly`,
+      `'Why' is an Abstract class and cannot be instantiated directly`
     );
   });
 
