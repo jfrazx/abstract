@@ -13,6 +13,7 @@
     "build": "parcel build",
     "watch": "parcel watch",
     "coverage:check": "nyc check-coverage",
+    "precoverage:report": "npm run coverage:test",
     "coverage:report": "nyc report --reporter=text-lcov > coverage.lcov",
     "coverage:post": "codecov",
     "precoverage:test": "rimraf coverage",
