@@ -8,7 +8,8 @@
     ".git",
     "build",
     ".parcel-cache",
-    ".nyc_output"
+    ".nyc_output",
+    "*.lcov"
   ],
   "words": [
     "codecov",
