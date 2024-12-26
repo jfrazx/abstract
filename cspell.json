@@ -12,6 +12,7 @@
     "*.lcov"
   ],
   "words": [
+    "Automerge",
     "codecov",
     "codeql",
     "Dont",
@@ -30,5 +31,7 @@
     "/\"@?[a-zA-Z0-9]+(/[a-zA-Z0-9]+)?\": \"\\^?[\\d+\\.]+\"/",
     "/YY[YMD hms]+/"
   ],
-  "ignoreWords": ["jfrazx"]
+  "ignoreWords": [
+    "jfrazx"
+  ]
 }
